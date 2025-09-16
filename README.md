@@ -1,8 +1,13 @@
 
------
 
 # 📚 CSIStudyTracker: WiFi CSI를 활용한 자동 학습 관리 시스템
 
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge">
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch Badge">
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter Badge">
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase Badge">
+</p>
 
 **CSIStudyTracker**는 WiFi CSI (Channel State Information)를 활용하여 학습자의 실시간 학습 상태를 자동으로 인식하고, 
 **순공부 시간**을 측정해주는 혁신적인 학습 관리 시스템입니다. 이 시스템은 라즈베리파이에서 CSI 데이터를 수집하고, 
