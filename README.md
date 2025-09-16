@@ -3,10 +3,11 @@
 # 📚 CSIStudyTracker: WiFi CSI를 활용한 자동 학습 관리 시스템
 
 <p align="center">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge">
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch Badge">
-<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter Badge">
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase Badge">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge">
+  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras Badge">
+  <img src="https://img.shields.io/badge/TensorFlowLite-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow Lite Badge">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter Badge">
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase Badge">
 </p>
 
 **CSIStudyTracker**는 WiFi CSI (Channel State Information)를 활용하여 
@@ -42,7 +43,7 @@ CSIStudyTracker의 시스템은 크게 **데이터 수집 및 처리**, **예측
 
   - **데이터 수집**: 라즈베리파이 + WiFi CSI
   - **데이터 처리 및 모델**: Python, Scapy
-  - **모델**: PyTorch / TensorFlow Lite (경량화)
+  - **모델**: Keras (TensorFlow) / TensorFlow Lite (경량화)
   - **데이터베이스**: Firebase Realtime Database
   - **앱 개발**: Flutter
 
