@@ -85,9 +85,6 @@ mkdir -p /home/pi/capston/
 python3 process_pcap.py
 ```
 
-### 4\. Flutter 앱 연동
-
-Flutter 프로젝트를 Firebase에 연결하고, Realtime Database를 구독하는 코드를 작성합니다. 자세한 방법은 [Firebase Flutter 공식 문서](https://firebase.google.com/docs/flutter/setup)를 참고하세요.
 
 -----
 
