@@ -4,12 +4,6 @@
 
 # 📚 CSIStudyTracker: WiFi CSI를 활용한 자동 학습 관리 시스템
 
-\<p align="center"\>
-\<img src="[https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Python-3776AB%3Fstyle%3Dfor-the-badge%26logo%3Dpython%26logoColor%3Dwhite)" alt="Python Badge"\>
-\<img src="[https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge\&logo=pytorch\&logoColor=white](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)" alt="PyTorch Badge"\>
-\<img src="[https://img.shields.io/badge/Flutter-02569B?style=for-the-badge\&logo=flutter\&logoColor=white](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)" alt="Flutter Badge"\>
-\<img src="[https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=black](https://www.google.com/search?q=https://img.shields.io/badge/Firebase-FFCA28%3Fstyle%3Dfor-the-badge%26logo%3Dfirebase%26logoColor%3Dblack)" alt="Firebase Badge"\>
-\</p\>
 
 **CSIStudyTracker**는 \*\*WiFi CSI (Channel State Information)\*\*를 활용하여 학습자의 실시간 학습 상태를 자동으로 인식하고, **순공부 시간**을 측정해주는 혁신적인 학습 관리 시스템입니다. 이 시스템은 라즈베리파이에서 CSI 데이터를 수집하고, 이를 기반으로 사용자의 **집중, 이탈, 졸음** 상태를 예측하여 Firebase에 저장합니다. 학습자는 Flutter 앱을 통해 자신의 학습 상태와 순공부 시간을 실시간으로 확인할 수 있습니다.
 
