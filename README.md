@@ -1,7 +1,6 @@
 
 
-# 📚 CSIStudyTracker
-# WiFi CSI를 활용한 자동 학습 관리 시스템
+# 📚 CSIStudyTracker: WiFi CSI를 활용한 자동 학습 관리 시스템
 
 <p align="center">
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge">
