@@ -23,7 +23,7 @@
   - **자동 학습 상태 인식**: 학습자가 자리에 앉아 있는지, 집중하고 있는지, 졸거나 자리에서 이탈했는지를 자동으로 인식합니다.
   - **실시간 학습 기록**: 인식된 학습 상태를 Firebase에 실시간으로 기록합니다.
   - **순공부 시간 측정**: 사용자의 집중 상태를 기준으로 정확한 순공부 시간을 계산합니다.
-  - **시각화 및 통계 제공**: Flutter 앱을 통해 실시간 학습 상태 및 통계 데이터를 확인하고 관리할 수 있습니다.
+  - **시각화 및 통계 제공**: Flutter 앱을 통해 실시간 학습 상태기반 타이머 측정 및 통계 데이터를 확인하고 관리할 수 있습니다.
 
 -----
 
@@ -33,7 +33,7 @@ CSIStudyTracker의 시스템은 크게 **데이터 수집 및 처리**, **예측
 
 1.  **라즈베리파이**: 📶 WiFi CSI 패킷을 수집하고 `.pcap` 파일을 생성합니다.
 2.  **Python 스크립트**: 🧑‍💻 `.pcap` 파일에서 페이로드(payload)를 추출하여 AI 모델의 입력 변수로 변환합니다.
-3.  **모델 예측**: 🧠 PyTorch 또는 TensorFlow Lite로 경량화된 모델이 데이터를 분석하여 사용자의 `status`와 `score`를 예측합니다.
+3.  **모델 예측**: 🧠 Keras를 활용하여 개발된 모델이 실시간 pcap파일을 heatmap으로 변환한 데이터 분석하여 사용자의 `status`를 예측합니다.
 4.  **Firebase Realtime Database**: ☁️ 예측 결과를 실시간으로 데이터베이스에 저장합니다.
 5.  **Flutter 앱**: 📱 Firebase Realtime Database를 실시간으로 구독하여 UI에 현재 학습 상태를 즉시 반영하고 통계를 시각화합니다.
 
@@ -43,7 +43,7 @@ CSIStudyTracker의 시스템은 크게 **데이터 수집 및 처리**, **예측
 
   - **데이터 수집**: 라즈베리파이 + WiFi CSI
   - **데이터 처리 및 모델**: Python, Scapy
-  - **모델**: Keras (TensorFlow) / TensorFlow Lite (경량화)
+  - **모델**: Keras (TensorFlow) 
   - **데이터베이스**: Firebase Realtime Database
   - **앱 개발**: Flutter
 
