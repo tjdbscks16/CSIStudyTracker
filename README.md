@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge">
   <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras Badge">
-  <img src="https://img.shields.io/badge/TensorFlowLite-000000?style=for-the-badge&logo=tensorflow&logoColor=FF6F00" alt="TensorFlow Lite Badge">
+  <img src="https://img.shields.io/badge/Made%20with-Tensorflow--Lite-orange?style=for-the-badge&logo=tensorflow&logoColor=white" alt="Made with TensorFlow Lite Badge">
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter Badge">
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase Badge">
 </p>
