@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "400221981329",
+    "firebase_url": "https://csistudytracker-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "csistudytracker",
+    "storage_bucket": "csistudytracker.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400221981329:android:06184f6f32d9530d4b4d30",
+        "android_client_info": {
+          "package_name": "com.example.vscode_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAztw72sK8Vpc0LZrWLjZ-0LshpjgoNRhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
